@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'pages/common/permisson_request_widget.dart';
 import 'pages/common/permisson_request_widget.dart';
 
 class IndexPage extends StatefulWidget {
@@ -26,25 +28,27 @@ class _IndexPageState extends State with WidgetsBindingObserver {
 
     // 延时0秒 放到队列里面
     Future.delayed(Duration.zero, () {
-      // 使用动态路由
-      Navigator.of(context)
-          .push(
-        PageRouteBuilder(
-            opaque: false,
-            pageBuilder: (BuildContext context, Animation<double> animation,
-                Animation<double> secondaryAnimation) {
-              return PermissionRequestWidget(
-                  permission: Permission.camera, permissionList: _list);
-            }),
-      )
-          .then((value) {
-        if (value == null || value == false) {
-          // 权限请求不通过
-        } else {
-          // 权限请求通过
+      initData();
 
-        }
-      });
+      // // 使用动态路由
+      // Navigator.of(context)
+      //     .push(
+      //   PageRouteBuilder(
+      //       opaque: false,
+      //       pageBuilder: (BuildContext context, Animation<double> animation,
+      //           Animation<double> secondaryAnimation) {
+      //         return PermissionRequestWidget(
+      //             permission: Permission.camera, permissionList: _list);
+      //       }),
+      // )
+      //     .then((value) {
+      //   if (value == null || value == false) {
+      //     // 权限请求不通过
+      //   } else {
+      //     // 权限请求通过
+
+      //   }
+      // });
     });
   }
 
@@ -61,5 +65,12 @@ class _IndexPageState extends State with WidgetsBindingObserver {
         ),
       ),
     );
+  }
+
+  void initData() {
+    NavigatorUtils.pushPageByFade(
+        context: context,
+        targPage: PermissionRequestWidget(
+            permission: Permission.camera, permissionList: _list));
   }
 }
