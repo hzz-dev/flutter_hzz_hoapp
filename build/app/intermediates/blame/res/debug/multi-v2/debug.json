@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hu/Documents/flutter_hzz_hoapp/build/app/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/hu/Documents/flutter_hzz_hoapp/build/app/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat",
             "map": [
                 {
@@ -27,6 +12,21 @@
                         "endLines": "2,3,4,5,6,7,8,9,12,17",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/hu/Documents/flutter_hzz_hoapp/build/app/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     }
                 }
             ]

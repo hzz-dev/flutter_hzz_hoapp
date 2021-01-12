@@ -12,85 +12,88 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:5:5-66
+14-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:5:22-64
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:3:5-80
-15-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:3:22-78
-16
-17    <application
-17-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:4:5-42:19
-18        android:name="io.flutter.app.FlutterApplication"
-18-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:5:9-57
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:icon="@mipmap/app_icon"
-21-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:7:9-40
-22        android:label="app名" >
-22-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:6:9-29
-23        <activity
-23-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:8:9-36:20
-24            android:name="com.example.flutter_hzz_hoapp.MainActivity"
-24-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:9:13-41
-25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-25-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:12:13-163
-26            android:hardwareAccelerated="true"
-26-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:13:13-47
-27            android:launchMode="singleTop"
-27-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:10:13-43
-28            android:theme="@style/LaunchTheme"
-28-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:11:13-47
-29            android:windowSoftInputMode="adjustResize" >
-29-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:14:13-55
-30
-31            <!--
-32                 Specifies an Android theme to apply to this Activity as soon as
-33                 the Android process has started. This theme is visible to the user
-34                 while the Flutter UI initializes. After that, this theme continues
-35                 to determine the Window background behind the Flutter UI.
-36            -->
-37            <meta-data
-37-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:19:13-22:17
-38                android:name="io.flutter.embedding.android.NormalTheme"
-38-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:20:15-70
-39                android:resource="@style/NormalTheme" />
-39-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:21:15-52
-40            <!--
-41                 Displays an Android View that continues showing the launch screen
-42                 Drawable until Flutter paints its first frame, then this splash
-43                 screen fades out. A splash screen is useful to avoid any visual
-44                 gap between the end of Android's launch screen and the painting of
-45                 Flutter's first frame.
-46            -->
-47            <meta-data
-47-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:28:13-31:17
-48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-48-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:29:15-79
-49                android:resource="@drawable/launch_background" />
-49-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:30:15-61
-50
-51            <intent-filter>
-51-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:32:13-35:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:33:17-68
-52-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:33:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:34:17-76
-54-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:34:27-74
-55            </intent-filter>
-56        </activity>
-57        <!--
-58             Don't delete the meta-data below.
-59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-60        -->
-61        <meta-data
-61-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:39:9-41:33
-62            android:name="flutterEmbedding"
-62-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:40:13-44
-63            android:value="2" />
-63-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:41:13-30
-64    </application>
-65
-66</manifest>
+15-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:3:6-82
+15-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:3:23-79
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:4:5-65
+16-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:4:22-62
+17
+18    <application
+18-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:6:5-44:19
+19        android:name="io.flutter.app.FlutterApplication"
+19-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:7:9-57
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/app_icon"
+22-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:9:9-40
+23        android:label="app名" >
+23-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:8:9-29
+24        <activity
+24-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:10:9-38:20
+25            android:name="com.example.flutter_hzz_hoapp.MainActivity"
+25-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:11:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:14:13-163
+27            android:hardwareAccelerated="true"
+27-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:15:13-47
+28            android:launchMode="singleTop"
+28-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:12:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:13:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:16:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:21:13-24:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:22:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:23:15-52
+41            <!--
+42                 Displays an Android View that continues showing the launch screen
+43                 Drawable until Flutter paints its first frame, then this splash
+44                 screen fades out. A splash screen is useful to avoid any visual
+45                 gap between the end of Android's launch screen and the painting of
+46                 Flutter's first frame.
+47            -->
+48            <meta-data
+48-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:30:13-33:17
+49                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+49-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:31:15-79
+50                android:resource="@drawable/launch_background" />
+50-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:32:15-61
+51
+52            <intent-filter>
+52-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:34:13-37:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:35:17-68
+53-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:35:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:36:17-76
+55-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:36:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:41:9-43:33
+63            android:name="flutterEmbedding"
+63-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:42:13-44
+64            android:value="2" />
+64-->/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:43:13-30
+65    </application>
+66
+67</manifest>
