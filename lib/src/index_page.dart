@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_hzz_hoapp/src/pages/common/protocol_model.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -14,7 +16,10 @@ class IndexPage extends StatefulWidget {
 }
 
 // WidgetsBindingObserver添加观察者 处理去设置中心或跳出app前后台切换
-class _IndexPageState extends State with WidgetsBindingObserver {
+// class _IndexPageState extends State with WidgetsBindingObserver
+
+// 通过with关键字讲ProtocolModel混入 类似多继承
+class _IndexPageState extends State with ProtocolModel {
   List<String> _list = [
     "为您更好的体验应用,所以需要或您的手机文件存储权限,以保存您的一些偏好设置",
     "您已拒绝权限,所以无法保存您的一些偏好设置,讲无法使用APP",
@@ -69,7 +74,7 @@ class _IndexPageState extends State with WidgetsBindingObserver {
   }
 
   void initData() {
-     //当前应用的运行环境
+    //当前应用的运行环境
     //当App运行在release环境时
     bool isLog = !bool.fromEnvironment("dart.vm.product");
     LogUtils.init(islog: isLog);
@@ -91,6 +96,33 @@ class _IndexPageState extends State with WidgetsBindingObserver {
         dismissCallBack: (value) {
           //插值
           LogUtils.e("权限申请结果 $value");
+          initDataNext();
         });
   }
+
+  //初始化工具类
+  void initDataNext() async {
+    bool isAgrement = await showProtocolFunction(context);
+
+    if (isAgrement) {
+      //同意
+      LogUtils.e("同意协议");
+       //保存一下标识
+      // SPUtil.save("isAgrement", true);
+       next();
+           } else {
+             LogUtils.e("不同意");
+             closeApp();
+           }
+         }
+       
+         void closeApp() {
+           //关闭应用的方法
+           SystemChannels.platform.invokeMethod("SystemNavigator.pop");
+         }
+       
+         void next() {}
 }
+
+
+https://www.bilibili.com/video/BV1Wt4y1k7py/

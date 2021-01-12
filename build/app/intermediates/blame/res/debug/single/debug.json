@@ -80,6 +80,10 @@
         "source": "/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/app/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
         "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_app_icon.png.flat",
         "source": "/Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/res/mipmap-xxxhdpi/app_icon.png"
     },

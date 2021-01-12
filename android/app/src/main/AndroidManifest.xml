@@ -6,7 +6,9 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="app名"
-        android:icon="@mipmap/app_icon">
+        android:icon="@mipmap/app_icon"
+        android:networkSecurityConfig="@xml/network_security_config">
+          <!--networkSecurityConfig 加载webhtml -->
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

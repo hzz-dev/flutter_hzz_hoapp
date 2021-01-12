@@ -22,6 +22,7 @@ class PermissionRequestWidget extends StatefulWidget {
       _PermissionRequestWidgetState();
 }
 
+// WidgetsBindingObserver添加观察者 处理去设置中心或跳出app前后台切换
 // PermissionRequestWidget与上面的相互绑定 数据可以相互调用
 class _PermissionRequestWidgetState extends State<PermissionRequestWidget>
     with WidgetsBindingObserver {
