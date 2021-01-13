@@ -5,6 +5,7 @@ INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/Android
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:1:1-47:12
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from [:video_player] /Users/hu/Documents/flutter_hzz_hoapp/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] /Users/hu/Documents/flutter_hzz_hoapp/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:permission_handler] /Users/hu/Documents/flutter_hzz_hoapp/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/hu/Documents/flutter_hzz_hoapp/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -20,8 +21,14 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/hu/.gradle/cache
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/eaa006279826c968cf31928a03a56f3c/exoplayer-hls-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/9be9113ec68968be2ceb17081a742f70/exoplayer-dash-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/d721c1964a7e4d19241812af479721d4/exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/e9edb8b7cd2d3009ebe489cb2d0fc142/exoplayer-core-2.12.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/593e725df097f7709c502d7903e8f301/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/54f8e72d0212487b74d7e622e08db218/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -116,6 +123,8 @@ uses-sdk
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml
+MERGED from [:video_player] /Users/hu/Documents/flutter_hzz_hoapp/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/hu/Documents/flutter_hzz_hoapp/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/hu/Documents/flutter_hzz_hoapp/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/hu/Documents/flutter_hzz_hoapp/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/hu/Documents/flutter_hzz_hoapp/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -146,10 +155,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hu/.gradle/cach
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/eaa006279826c968cf31928a03a56f3c/exoplayer-hls-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/eaa006279826c968cf31928a03a56f3c/exoplayer-hls-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/9be9113ec68968be2ceb17081a742f70/exoplayer-dash-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/9be9113ec68968be2ceb17081a742f70/exoplayer-dash-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/d721c1964a7e4d19241812af479721d4/exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/d721c1964a7e4d19241812af479721d4/exoplayer-smoothstreaming-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/e9edb8b7cd2d3009ebe489cb2d0fc142/exoplayer-core-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/e9edb8b7cd2d3009ebe489cb2d0fc142/exoplayer-core-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/593e725df097f7709c502d7903e8f301/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/593e725df097f7709c502d7903e8f301/jetified-exoplayer-extractor-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/54f8e72d0212487b74d7e622e08db218/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/54f8e72d0212487b74d7e622e08db218/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/AndroidManifest.xml
@@ -160,3 +181,9 @@ INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/Androi
 	android:minSdkVersion
 		INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/e9edb8b7cd2d3009ebe489cb2d0fc142/exoplayer-core-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/54f8e72d0212487b74d7e622e08db218/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/54f8e72d0212487b74d7e622e08db218/jetified-exoplayer-common-2.12.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.12.1] /Users/hu/.gradle/caches/transforms-2/files-2.1/e9edb8b7cd2d3009ebe489cb2d0fc142/exoplayer-core-2.12.1/AndroidManifest.xml:24:22-76

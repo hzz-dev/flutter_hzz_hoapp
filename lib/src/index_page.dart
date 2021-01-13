@@ -1,4 +1,3 @@
-
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
@@ -8,6 +7,7 @@ import 'package:flutter_hzz_hoapp/src/pages/common/protocol_model.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/sp_utils.dart';
+import 'package:flutter_hzz_hoapp/src/welcom_page.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'pages/common/permisson_request_widget.dart';
@@ -137,5 +137,11 @@ class _IndexPageState extends State with ProtocolModel {
     SystemChannels.platform.invokeMethod("SystemNavigator.pop");
   }
 
-  void next() {}
+  void next() {
+    //引导 页面
+
+    //倒计时页面
+    NavigatorUtils.pushPageByFade(
+        context: context, targPage: WelcomePage(), isReplace: true);
+  }
 }

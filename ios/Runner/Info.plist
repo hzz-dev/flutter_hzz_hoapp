@@ -47,5 +47,10 @@
 	<false/>
 	<key>NSCameraUsageDescription</key>
 	<string>App需要访问您的相机权限</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+	<key>NSAllowsArbitraryLoads</key>
+	<true/>
+	</dict>
 </dict>
 </plist>

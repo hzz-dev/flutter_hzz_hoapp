@@ -37,6 +37,8 @@ dependencies:
   shared_preferences: ^0.5.12+4
     # 路径获取
   path_provider: ^1.6.24
+  #视频播放
+  video_player: ^1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -58,3 +60,4 @@ flutter:
   assets:
     - assets/images/app_icon.png
     - assets/images/
+    - assets/video/
