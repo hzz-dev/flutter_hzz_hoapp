@@ -5,7 +5,9 @@ INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/Android
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:1:1-47:12
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from [:shared_preferences] /Users/hu/Documents/flutter_hzz_hoapp/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:permission_handler] /Users/hu/Documents/flutter_hzz_hoapp/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/hu/Documents/flutter_hzz_hoapp/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:webview_flutter] /Users/hu/Documents/flutter_hzz_hoapp/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.webkit:webkit:1.0.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/e6b1c804849fbf3a96135de6255bcce0/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -114,8 +116,12 @@ uses-sdk
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/hu/Documents/flutter_hzz_hoapp/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences] /Users/hu/Documents/flutter_hzz_hoapp/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/hu/Documents/flutter_hzz_hoapp/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/hu/Documents/flutter_hzz_hoapp/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Users/hu/Documents/flutter_hzz_hoapp/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/hu/Documents/flutter_hzz_hoapp/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/hu/Documents/flutter_hzz_hoapp/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter] /Users/hu/Documents/flutter_hzz_hoapp/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter] /Users/hu/Documents/flutter_hzz_hoapp/build/webview_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/hu/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41

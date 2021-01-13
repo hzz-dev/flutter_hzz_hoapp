@@ -33,6 +33,10 @@ dependencies:
   permission_handler: ^5.0.1+1
   # WebView
   webview_flutter: ^1.0.7
+  #偏好设置
+  shared_preferences: ^0.5.12+4
+    # 路径获取
+  path_provider: ^1.6.24
 
 dev_dependencies:
   flutter_test:

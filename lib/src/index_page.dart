@@ -1,11 +1,15 @@
+
+import 'dart:io';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hzz_hoapp/src/pages/common/protocol_model.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
+import 'package:flutter_hzz_hoapp/src/pages/utils/sp_utils.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'pages/common/permisson_request_widget.dart';
 import 'pages/common/permisson_request_widget.dart';
 
 class IndexPage extends StatefulWidget {
@@ -102,27 +106,36 @@ class _IndexPageState extends State with ProtocolModel {
 
   //初始化工具类
   void initDataNext() async {
-    bool isAgrement = await showProtocolFunction(context);
+    // isAgrement标识存储的路径
+    if (Platform.isIOS) {
+      Directory libDire = await getLibraryDirectory();
+      LogUtils.e("libDire ${libDire.path}");
+    }
+    //初始化
+    await SPUtil.init();
+    //读取一下标识
+    bool isAgrement = await SPUtil.getBool("isAgrement");
+    LogUtils.e("isAgrement $isAgrement");
+    if (isAgrement == null || !isAgrement) {
+      isAgrement = await showProtocolFunction(context);
+    }
 
     if (isAgrement) {
       //同意
       LogUtils.e("同意协议");
-       //保存一下标识
-      // SPUtil.save("isAgrement", true);
-       next();
-           } else {
-             LogUtils.e("不同意");
-             closeApp();
-           }
-         }
-       
-         void closeApp() {
-           //关闭应用的方法
-           SystemChannels.platform.invokeMethod("SystemNavigator.pop");
-         }
-       
-         void next() {}
+      //保存一下标识
+      SPUtil.save("isAgrement", true);
+      next();
+    } else {
+      LogUtils.e("不同意");
+      closeApp();
+    }
+  }
+
+  void closeApp() {
+    //关闭应用的方法
+    SystemChannels.platform.invokeMethod("SystemNavigator.pop");
+  }
+
+  void next() {}
 }
-
-
-https://www.bilibili.com/video/BV1Wt4y1k7py/
