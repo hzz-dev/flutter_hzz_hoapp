@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_hzz_hoapp/src/home_page.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
 
@@ -77,10 +78,10 @@ class _WelcomeTimeWidgetState extends State<WelcomeTimeWidget> {
 
   void goHome() {
     LogUtils.e("计时完成去首页面");
-    // NavigatorUtils.pushPageByFade(
-    //   context: context,
-    //   targPage: HomePage(),
-    //   isReplace: true,
-    // );
+    NavigatorUtils.pushPageByFade(
+      context: context,
+      targPage: HomePage(),
+      isReplace: true,
+    );
   }
 }
