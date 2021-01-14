@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:1:1-19:12
+INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:1:1-19:12
+	package
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:5:5-83
+	android:name
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:5:22-80
+application
+ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:7:5-18:19
+provider#androidx.core.content.FileProvider
+ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:8:9-17:20
+	android:grantUriPermissions
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:10:13-64
+	android:exported
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:12:13-37
+	tools:replace
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:11:13-48
+	android:name
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:9:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:14:13-16:66
+	android:resource
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:16:17-63
+	android:name
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:15:17-67
+uses-sdk
+INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+		ADDED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml

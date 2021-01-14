@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/fluttertoast/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/fluttertoast/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/fluttertoast/intermediates/res/merged/release/drawable/toast_bg.xml",
+        "source": "/Users/hu/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-7.1.6/android/src/main/res/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/fluttertoast/intermediates/res/merged/release/drawable/corner.xml",
+        "source": "/Users/hu/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-7.1.6/android/src/main/res/drawable/corner.xml"
+    },
+    {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/fluttertoast/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/hu/Documents/flutter_hzz_hoapp/build/fluttertoast/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/hu/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/res/drawable/notification_bg_low.xml"
+    }
+]

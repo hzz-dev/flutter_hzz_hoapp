@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hzz_hoapp/src/mine/mine_login_page.dart';
 import 'package:flutter_hzz_hoapp/src/mine/mine_no_login_page.dart';
+import 'package:flutter_hzz_hoapp/src/mine/setting_page.dart';
 import 'package:flutter_hzz_hoapp/src/pages/common/controller.dart';
 import 'package:flutter_hzz_hoapp/src/pages/common/user_helper.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
@@ -57,7 +58,7 @@ class _MineMainPageState extends State<MineMainPage> {
         NavigatorUtils.pushPage(
           context: context,
           //目标页面
-          // targPage: SettingPage(),
+          targPage: SettingPage(),
           //关闭设置页面的回调
           dismissCallBack: (value) {
             if (value != null) {

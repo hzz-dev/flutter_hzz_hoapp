@@ -1,0 +1,4 @@
+#Thu Jan 14 16:22:55 CST 2021
+base.0=/Users/hu/Documents/flutter_hzz_hoapp/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -107,6 +107,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.1.4"
+  install_plugin_custom:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: e8c5ae623fdb5323c32c78871e1d302e5e51c45b
+      url: "https://github.com/hzz-dev/install_plugin_custom"
+    source: git
+    version: "0.0.1"
   intl:
     dependency: transitive
     description:

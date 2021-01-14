@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.studyyoun.install_plugin_custom" >
+5
+6    <uses-sdk android:minSdkVersion="16" />
+6-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+8-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:5:5-83
+8-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:5:22-80
+9
+10    <application>
+10-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:7:5-18:19
+11        <provider
+11-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:8:9-17:20
+12            android:name="androidx.core.content.FileProvider"
+12-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:9:13-62
+13            android:authorities="dollar_openBracket_applicationId_closeBracket.fileprovider"
+13-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:10:13-64
+14            android:exported="false"
+14-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:12:13-37
+15            android:grantUriPermissions="true"
+15-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:13:13-47
+16            tools:replace="android:authorities" >
+16-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:11:13-48
+17            <meta-data
+17-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:14:13-16:66
+18                android:name="android.support.FILE_PROVIDER_PATHS"
+18-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:15:17-67
+19                android:resource="@xml/provider_install_paths" />
+19-->/Users/hu/Documents/flutter/.pub-cache/git/install_plugin_custom-e8c5ae623fdb5323c32c78871e1d302e5e51c45b/android/src/main/AndroidManifest.xml:16:17-63
+20        </provider>
+21    </application>
+22
+23</manifest>
