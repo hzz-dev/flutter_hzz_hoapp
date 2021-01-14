@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_hzz_hoapp/src/first_guild_page.dart';
 import 'package:flutter_hzz_hoapp/src/pages/common/protocol_model.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
@@ -137,11 +138,19 @@ class _IndexPageState extends State with ProtocolModel {
     SystemChannels.platform.invokeMethod("SystemNavigator.pop");
   }
 
-  void next() {
-    //引导 页面
+  void next() async{
+    //判断是否第一次安装应用
+    bool isFirstInstall = await  SPUtil.getBool("flutter_hzz_isFirst");
 
-    //倒计时页面
-    NavigatorUtils.pushPageByFade(
-        context: context, targPage: WelcomePage(), isReplace: true);
+    if(isFirstInstall==null){
+      //如果为null 则是第一次安装应用
+      //引导 页面
+      NavigatorUtils.pushPageByFade(
+          context: context, targPage: FirstGuildPage(), isReplace: true);
+    }else{
+      //倒计时页面
+      NavigatorUtils.pushPageByFade(
+          context: context, targPage: WelcomePage(), isReplace: true);
+    }
   }
 }

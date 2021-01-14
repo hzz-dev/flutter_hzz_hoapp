@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:video_player/video_player.dart';
 
+// 倒计时页面 的视频播放
 class WelcomeVideoWidget extends StatefulWidget {
   @override
   _WelcomeVideoWidgetState createState() => _WelcomeVideoWidgetState();
