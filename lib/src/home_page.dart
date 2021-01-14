@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hzz_hoapp/src/home/home_item_page.dart';
+import 'package:flutter_hzz_hoapp/src/mine/mine_main_page.dart';
 
 // 首页
 class HomePage extends StatefulWidget {
@@ -38,7 +39,7 @@ class _HomePageState extends State<HomePage> {
             HomeItemPage(2),
             HomeItemPage(3),
             HomeItemPage(4),
-            HomeItemPage(5),
+            MineMainPage(),
           ],
         ),
       ),

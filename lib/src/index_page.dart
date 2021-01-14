@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hzz_hoapp/src/first_guild_page.dart';
 import 'package:flutter_hzz_hoapp/src/pages/common/protocol_model.dart';
+import 'package:flutter_hzz_hoapp/src/pages/common/user_helper.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/log_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/navigator_utils.dart';
 import 'package:flutter_hzz_hoapp/src/pages/utils/sp_utils.dart';
@@ -117,6 +118,9 @@ class _IndexPageState extends State with ProtocolModel {
     //读取一下标识
     bool isAgrement = await SPUtil.getBool("isAgrement");
     LogUtils.e("isAgrement $isAgrement");
+
+    UserHepler.getInstance.init();
+
     if (isAgrement == null || !isAgrement) {
       isAgrement = await showProtocolFunction(context);
     }
