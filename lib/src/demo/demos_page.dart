@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_hzz_hoapp/src/demo/demo_pageview_page.dart';
 import 'package:flutter_hzz_hoapp/src/demo/demo_pie.dart';
 import 'package:flutter_hzz_hoapp/src/demo/demo_scroll_index_list.dart';
 import 'package:flutter_hzz_hoapp/src/demo/shuibo_page.dart';
@@ -15,7 +16,12 @@ class _DemosPageState extends State<DemosPage> {
   Widget build(BuildContext context) {
     return Container(
       child: ListView(
-        children: [buildScollIndexWidget(), buildShuibowenWidget(),buildEChartWidget()],
+        children: [
+          buildScollIndexWidget(),
+          buildShuibowenWidget(),
+          buildEChartWidget(),
+          buildPageViewWidget(),
+        ],
       ),
     );
   }
@@ -61,6 +67,21 @@ class _DemosPageState extends State<DemosPage> {
       //点击事件
       onTap: () {
         NavigatorUtils.pushPage(context: context, targPage: DemoPiePage());
+      },
+    );
+  }
+
+  ListTile buildPageViewWidget() {
+    return ListTile(
+      //显示标题
+      title: Text("纵向翻页效果"),
+      //右侧按钮
+      trailing: Icon(Icons.arrow_forward_ios),
+      //左侧箭头
+      leading: Icon(Icons.water_damage_sharp),
+      //点击事件
+      onTap: () {
+        NavigatorUtils.pushPage(context: context, targPage: PageViewPage());
       },
     );
   }
