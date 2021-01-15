@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hzz_hoapp/src/demo/banner_widget.dart';
+import 'package:flutter_hzz_hoapp/src/demo/demos_page.dart';
 import 'package:flutter_hzz_hoapp/src/demo/home_item_tabbar_page.dart';
 
 class HomeItemDemoPage extends StatefulWidget {
@@ -114,11 +115,7 @@ class _HomeItemDemoPageState extends State<HomeItemDemoPage>
   buildBody() {
     return TabBarView(
       controller: _tabController,
-      children: [
-        HomeItemTabbarPage(),
-        HomeItemTabbarPage(),
-        HomeItemTabbarPage()
-      ],
+      children: [DemosPage(), HomeItemTabbarPage(), HomeItemTabbarPage()],
     );
   }
 }
