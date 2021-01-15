@@ -46,6 +46,9 @@ dependencies:
   #App版本信息
   package_info: ^0.4.3+2
 
+  # 饼图
+  flutter_echart: ^1.0.2
+    #path: /Volumes/code/ico/Desktop/code/flutter_app/flutter_echart
    #  APP升级安装组件 Android中调用自动安装 apk的程序
   #ios 调用打开APPStore
   install_plugin_custom:

@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_hzz_hoapp/src/demo/demo_item_page.dart';
+import 'package:flutter_hzz_hoapp/src/home/home_item3_page.dart';
 import 'package:flutter_hzz_hoapp/src/home/home_item_page.dart';
 import 'package:flutter_hzz_hoapp/src/mine/mine_main_page.dart';
 
@@ -36,9 +38,9 @@ class _HomePageState extends State<HomePage> {
             // //第五个个人中心页面
             // MineMainPage(),
             HomeItemPage(1),
-            HomeItemPage(2),
+            HomeItemDemoPage(),
             HomeItemPage(3),
-            HomeItemPage(4),
+            HomeItem3Page(),
             MineMainPage(),
           ],
         ),
